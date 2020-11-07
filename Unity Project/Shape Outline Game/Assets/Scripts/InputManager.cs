@@ -15,6 +15,8 @@ public class InputManager : MonoBehaviour
 	void Start()
 	{
 		points = new List<Vector3>();
+		
+		// Make sure we're handling input immediately
 		InvokeRepeating("HandleInput", 0f, .05f);
 	}
 	
