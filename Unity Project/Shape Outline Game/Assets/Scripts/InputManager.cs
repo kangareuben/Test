@@ -15,7 +15,7 @@ public class InputManager : MonoBehaviour
 	void Start()
 	{
 		points = new List<Vector3>();
-		InvokeRepeating("HandleInput", 2f, .05f);
+		InvokeRepeating("HandleInput", 1f, .05f);
 	}
 	
 	// Update is called once per frame
